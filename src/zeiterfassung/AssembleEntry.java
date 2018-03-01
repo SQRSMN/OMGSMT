@@ -20,7 +20,7 @@ public class AssembleEntry {
 String timeStamp = new SimpleDateFormat("yyyy.MM.dd.HH.mm.ss").format(new Date());    
     
     public String getTimestamp(){
-    System.out.println(timeStamp);
+    //System.out.println(timeStamp);
     return timeStamp;
     }
     

@@ -22,13 +22,13 @@ AssembleEntry buildString = new AssembleEntry();
 File file = new File("worktime.txt");
 
 public void stampWriter(){
-try(FileWriter fw = new FileWriter(file, true);
+try(FileWriter fw = new FileWriter(file, true);//true := append to existing file
     BufferedWriter bw = new BufferedWriter(fw);
     PrintWriter out = new PrintWriter(bw))
 {
     out.println(buildString.getTimestamp());
-    //more code
+    
 } catch (IOException e) {
-    //exception handling left as an exercise for the reader
+    e.printStackTrace();
 }
 }}
