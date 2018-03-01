@@ -1,3 +1,9 @@
+#Netbeans specific#
+###############
+private.xml
+private.properties
+
+
 # Compiled source #
 ###################
 *.com
@@ -35,3 +41,5 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
+nbproject/private/private.properties
+nbproject/private/private.xml
